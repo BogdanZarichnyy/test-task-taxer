@@ -1,0 +1,29 @@
+.inputHidden {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputInfo {
+  margin: 150px 0 20px;
+  text-align: center;
+}
+
+.inputButton {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 40px;
+  min-width: 110px;
+  /* border: 1px solid black; */
+  background-color: buttonface;
+  color: buttontext;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  cursor: pointer;
+}

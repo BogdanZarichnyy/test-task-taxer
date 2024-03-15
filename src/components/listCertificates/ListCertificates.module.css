@@ -1,0 +1,27 @@
+.list {
+  margin-top: 20px;
+}
+
+.item {
+  width: 380px;
+  padding: 10px 15px 10px 5px;
+  border: 1px solid black;
+  position: relative;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgb(221, 213, 213);
+}
+
+.itemActive {
+  background-color: rgb(192, 70, 70);
+}
+
+.itemActive::after {
+  content: '►';
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}

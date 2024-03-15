@@ -1,0 +1,31 @@
+.main {
+  background-color: inherit;
+  /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 1 0 auto;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px
+}
+
+.catalog, .details {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notice {
+  margin-top: 20px;
+}
+
+.detailsInfo {
+  height: 300px;
+  width: 100%;
+  border: 1px dotted black;
+  /* margin: 20px 0 0 20px ; */
+  padding: 20px;
+}
+
+.detailsInfo[for="sertificate"] {
+  text-align: center;
+}
