@@ -1,6 +1,8 @@
+import { IInputCertificates } from '../../services/interfaces';
+
 import css from './InputCertificates.module.css';
 
-const InputCertificates = ({ styles, handlerUploadFile, sertificateName }) => {
+const InputCertificates = ({ styles, handlerUploadFile, sertificateName }: IInputCertificates) => {
   return (
     <label className={styles} htmlFor="sertificate">
       <input className={css.inputHidden} 

@@ -1,6 +1,8 @@
+import { ICart } from '../../services/interfaces';
+
 import css from './Cart.module.css';
 
-const Cart = ({ styles, isDetails, initialDetails }) => {
+const Cart = ({ styles, isDetails, initialDetails }: ICart) => {
   return (
     <div className={styles}>
       <p className={css.infoCart}>
